@@ -5,7 +5,7 @@ from langchain.chains import ConversationChain
 from langchain.memory import ConversationSummaryBufferMemory
 from langchain.chat_models import ChatOpenAI
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
 memory = ConversationSummaryBufferMemory(llm=ChatOpenAI(), max_token_limit=2048)
